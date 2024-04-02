@@ -1,3 +1,5 @@
+package matriz;
+
 public class Matrix {
     public static void main(String[] args) {
         int[][] m = new int[3][5];

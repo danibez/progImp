@@ -1,3 +1,5 @@
+package matriz;
+
 public class MatrixStatic {
     public static void main(String[] args) {
         int[][] mat = {
