@@ -1,5 +1,13 @@
+package arquivos;
+
 import java.io.FileWriter;
 import java.util.Scanner;
+
+//Criar um programa que cadastre pessoas e gere
+// um arquivo csv com os campos nome, sobrenome e
+// email como cabeçalhos. Para cada nova pessoa
+// cadastrada, peça para o usuário escrever do teclado
+// seu nome, sobrenome e email.
 
 public class CadastrarPessoa {
     public static void main(String[] args) {
