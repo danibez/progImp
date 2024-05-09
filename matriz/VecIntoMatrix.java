@@ -1,7 +1,5 @@
-package matriz;
-
-public class MatrixStatic {
-
+public class VecIntoMatrix {
+    
     public static int verifica(int[][] m, int[] v){
         int k = 0, n = 0;
         for (int i = 0; i < m.length; i++) {
@@ -19,22 +17,15 @@ public class MatrixStatic {
         }
         return n;
     }
-
     public static void main(String[] args) {
         int[][] mat = {
-                     {1,2,3},
-                     {4,5,6},
-                     {7,8,9}
+                     {1, 2, 3, 4, 5, 2, 3, 6, 3, 5},
+                     {4, 5, 6, 8, 2, 3, 1, 3, 4, 5},
+                     {7, 8, 9, 7, 4, 5, 3, 2, 2, 2}
                     };
 
+        int []v = {4,5};
 
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                System.out.print(mat[i][j] + " ");
-            }
-            System.out.println();
-        }
+        System.out.println(verifica(mat, v));
     }
 }
-      
-
