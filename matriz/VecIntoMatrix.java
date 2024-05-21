@@ -1,3 +1,5 @@
+package matriz;
+
 public class VecIntoMatrix {
     
     public static int verifica(int[][] m, int[] v){
