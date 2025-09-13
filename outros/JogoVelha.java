@@ -1,3 +1,4 @@
+package outros;
 public class JogoVelha {
     public static boolean verificaLinha(char[] linha, char c){
         if (linha[0] == linha[1] && linha[1] == linha[2]) {
